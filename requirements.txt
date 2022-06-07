@@ -2,7 +2,6 @@
 
 streamlit
 pytesseract
-io
 requests
 # pillow
 pil
