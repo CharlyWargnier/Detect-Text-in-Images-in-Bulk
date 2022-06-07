@@ -2,9 +2,9 @@
 
 streamlit
 pytesseract
-requests
+# requests
 pillow
 # pil
-pathlib
+# pathlib
 
 
