@@ -1,10 +1,6 @@
-
-
-streamlit
+# requirements.txt
+streamlit==1.10.0
 pytesseract
-# requests
-pillow
-# pil
-# pathlib
+requests
+Pillow
 beautifulsoup4
-
