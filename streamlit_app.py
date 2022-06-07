@@ -17,6 +17,7 @@ st.title("Detect Text in Images in Bulk")
 alt_text_list = []
 img_text_list = []
 urls_list = []
+
 img_list = []
 df1 = pd.DataFrame(columns=["url", "img url", "alt text", "image text"])
 img_formats = [".jpg", ".jpeg", ".gif", ".png", ".webp"]
@@ -66,11 +67,11 @@ else:
         alt_text_list.append("no alt")
 
 
+st.write("what's in img_text_list?")
 img_text_list
 
+st.write("what's in alt_text_list?")
 alt_text_list
-
-st.stop()
 
 df1["url"] = urls_list
 df1["img url"] = img_list
