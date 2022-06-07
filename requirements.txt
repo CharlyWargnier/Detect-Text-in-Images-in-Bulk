@@ -3,8 +3,8 @@
 streamlit
 pytesseract
 requests
-# pillow
-pil
+pillow
+# pil
 pathlib
 
 
