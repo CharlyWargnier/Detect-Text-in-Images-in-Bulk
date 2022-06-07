@@ -20,7 +20,7 @@ urls_list = []
 
 img_list = []
 df1 = pd.DataFrame(columns=["url", "img url", "alt text", "image text"])
-img_formats = [".jpg", ".jpeg", ".gif", ".png", ".webp"]
+img_formats = [".jpg", ".jpeg", ".png", ".webp"]
 df1
 
 df = pd.read_csv("urls.csv")
