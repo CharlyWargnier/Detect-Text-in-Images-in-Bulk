@@ -1,0 +1,1 @@
+# Detect-Text-in-Images-in-Bulk
