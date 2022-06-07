@@ -6,5 +6,5 @@ pytesseract
 pillow
 # pil
 # pathlib
-
+beautifulsoup4
 
