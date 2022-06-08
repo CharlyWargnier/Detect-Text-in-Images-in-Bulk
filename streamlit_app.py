@@ -39,7 +39,6 @@ for y in urls:
     urls_list.append(y)
 
     if x != "-":
-      (pathlib.Path(x).suffix)
       if pathlib.Path(x).suffix in img_formats:
         response = requests.get(x)
         img = Image.open(io.BytesIO(response.content))
